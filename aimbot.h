@@ -229,7 +229,7 @@ void aimbot() {
 }
 
 int main() {
-target_pid = find_pid("com.pubg.kr");
+target_pid = find_pid("com.edkongames.mobs");
     if (target_pid == -1) {
         return 1;
 }
