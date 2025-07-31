@@ -1,5 +1,5 @@
 # Aimbot-Touch
-/*
+
  * 🔫 AIMBOTTOUCH.h – Sistema de Aimbot com Simulação de Toque
  *
  * Descrição:
@@ -35,5 +35,5 @@
  * ou um módulo externo seja usado.
  *
  * Desenvolvido por: CMODs
- */
+
 
