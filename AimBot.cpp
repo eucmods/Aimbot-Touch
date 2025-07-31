@@ -36,13 +36,14 @@ FRotator CalcAngle(Vector3 LocalHead, Vector3 EnemyHead) {
 
 
 void RunAimbotLoop(uintptr_t localPlayer, uintptr_t enemyList) {
-	while (true) {
+while (Bools_tt:AIMBOT) {
     auto mainTransform = Read<uintptr_t>(localPlayer + 0x1AC);
     auto localPos = get_Position(mainTransform);
 
     auto headTransform = HeadTF(enemyList);
-    auto headPos = get_Node(headTransform);
+    auto headPos = get_BoneNode(headTransform);
 
+	//Vector3 headPos
     float dx = headPos.x - localPos.x;
     float dy = headPos.y - localPos.y;
     float dz = headPos.z - localPos.z;
